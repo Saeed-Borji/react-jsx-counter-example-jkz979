@@ -8,12 +8,12 @@ let hour = 0;
 
 function show() {
   sec++;
-  if(sec => 60)
+  if(sec > 59)
   {
     min++;
     sec = 0;
   }
-  if(min => 60)
+  if(min > 59)
   {
     hour++;
     min = 0;
